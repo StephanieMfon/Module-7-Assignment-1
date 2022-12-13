@@ -1,0 +1,139 @@
+*,
+*::before, 
+*::after{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size:62.5%;
+}
+html,body{
+    width: 100%;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    overflow-x:scroll;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width:100%;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 800;
+    font-size: 1.6rem;
+}
+
+/* HEADER SECTION */
+nav{
+    /* background: rgba(128, 128, 128, 0.027); */
+}
+.nav-top{
+    padding: 30px 0 0;
+    margin: 0 40px;
+}
+nav .logo{
+    height: 30px;
+}
+.nav-top-left{
+    gap: 48px;
+}
+form svg, form img{
+    width: 24px;
+}
+
+form{
+    height: 44px;
+    background: #fff;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 690px;
+    justify-content:space-between;
+    padding: 0 15px 0 14px;
+}
+form input{
+    width: 485px;
+    height: 42px;
+    border:none;
+    outline:none;
+    font-size: 1.6rem;
+}
+form span{
+    border-left: 1px solid #dadce0;
+    height: 65%;
+    width: 1px;
+}
+form, .flex{
+    display:flex;
+    align-items:center;
+}
+
+.nav-top{
+    justify-content: space-between;
+}
+.nav-top-right{
+    display:flex;
+    gap:20px;
+}
+
+.nav-top-right svg{
+    width: 24px;
+}
+.google-initial{
+    border-radius: 50%;
+}
+/* NAV BOTTOM */
+.nav-bottom{
+    justify-content: space-between;
+    margin:15px 40px 35px 170px;
+}
+.nav-bottom-left ul li{
+   
+    padding: 0 8px 0 0px;
+    border-radius: 0.4rem;
+    display: flex;
+    /* gap: 10px; */
+}
+.nav-bottom-left ul li a{
+    width: 97px;
+    height: 40px;
+    font-size: 1.4rem;
+    color: #202124;
+    display: flex;
+    align-items: center;
+    border: 1px solid #dadce0;
+    justify-content: center;
+    border-radius: 50px;
+    gap: 5px;
+
+}
+.nav-bottom ul li span{
+    font-size: 1.6rem;
+    opacity: 0.9;
+}
+.nav-bottom-left ul li{
+    display:flex;
+}
+.nav-bottom-left svg{
+fill: #4285f4;
+width: 18px;
+}
+.nav-bottom-right{
+    justify-content: space-between;
+    width:250px;
+}
+.nav-bottom-right svg{
+width: 20px;
+}
+.nav-bottom-right span{
+    width:1px;
+    border-left: 1px solid #dadce0;
+    height:20px;
+}
+
+.nav-bottom-right p{
+    font-size: 14px;
+}
